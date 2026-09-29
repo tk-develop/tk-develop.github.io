@@ -1,7 +1,6 @@
 # tk-develop.github.io
 
 アプリの公開ページ（GitHub Pages）。`main` のいちばん上がそのまま https://tk-develop.github.io/ になる。
-個人のアカウント名を URL に出さないため、組織 `tk-develop` に置いている（2026-09-29 に `hirano-kojin.github.io` から移した）。
 
 | ページ | URL |
 |---|---|
