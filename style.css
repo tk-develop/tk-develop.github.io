@@ -1,0 +1,28 @@
+/* 家計予報の規約・ポリシーのページ。色はアプリ（src/constants/designTokens.ts）に合わせる */
+:root {
+  --text: #1E293B;
+  --text-sub: #475569;
+  --text-muted: #64748B;
+  --accent: #5B61E8;
+  --bg: #F5F7FF;
+  --card: #FFFFFF;
+  --border: #E0E7FF;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", "Yu Gothic", sans-serif;
+  line-height: 1.8; font-size: 16px;
+}
+main { max-width: 720px; margin: 0 auto; padding: 24px 16px 48px; }
+.card { background: var(--card); border: 1px solid var(--border); border-radius: 18px; padding: 20px 18px; }
+h1 { font-size: 1.4rem; margin: 0 0 4px; }
+.lead { color: var(--text-muted); font-size: 0.9rem; margin: 0 0 20px; }
+h2 { font-size: 1.05rem; margin: 28px 0 6px; padding-top: 12px; border-top: 1px solid var(--border); }
+h2:first-of-type { border-top: none; padding-top: 0; }
+p, li { color: var(--text-sub); }
+ul, ol { padding-left: 1.4em; margin: 6px 0; }
+a { color: var(--accent); }
+.date { margin-top: 28px; color: var(--text-muted); font-size: 0.9rem; }
+.back { display: inline-block; margin-bottom: 14px; font-size: 0.9rem; }
+.todo { background: #FEF3C7; border-radius: 4px; padding: 0 3px; }
